@@ -13,5 +13,8 @@ chicago.csv
 washington.csv
 new_york_city.csv
 
+### Program needed
+Python any version preferably version 3
+
 ### Credits
 Udacity
