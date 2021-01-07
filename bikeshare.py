@@ -34,7 +34,7 @@ def get_filters(city, month, day):
                 day = 'all'
                 break
             else:
-                print ('Oops! it seems your entry is not valid, please try again')
+                print ('Oops! it seems your entry is invalid, please try again')
 
         elif time == 'day':
             day = ('sunday','monday','tuesday','wednesday','thursday','friday','saturday','all')
