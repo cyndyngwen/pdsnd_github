@@ -204,8 +204,8 @@ def display_raw_data(df):
             print("\nSeems you entered the wrong word. Please try again.\n")
             continue
         elif respond == 'yes':
-            raw_data += 5
-            print(df.iloc[raw_data : raw_data + 5])
+            raw_data += 6
+            print(df.iloc[raw_data : raw_data + 6])
         repeat = input("would you like to see some more raw data? Yes or No\n").lower()
         if repeat == 'no':
             break
